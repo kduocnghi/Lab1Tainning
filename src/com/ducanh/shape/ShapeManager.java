@@ -63,8 +63,8 @@ public class ShapeManager {
                     System.out.println("Nhập tọa độ y của tâm :");
                     int y = scanner.nextInt();
                     System.out.println("Nhập màu sắc :");
-                    scanner.next();
-                    String color = scanner.nextLine();
+                    String color = scanner.next() +scanner.nextLine();
+                    System.out.println(color +"xxxxxx");
                     System.out.println("Nhập bán kính :");
                     int radius = scanner.nextInt();
                     shapes.add(new Circle(new Coordinate(x,y), color, radius));
@@ -75,8 +75,8 @@ public class ShapeManager {
                     System.out.println("Nhập tọa độ y của tâm :");
                     int y1 = scanner.nextInt();
                     System.out.println("Nhập màu sắc :");
-                    scanner.next();
-                    String color1 = scanner.nextLine();
+
+                    String color1 = scanner.next() +scanner.nextLine();
                     System.out.println("Nhập chiều dài :");
                     int width = scanner.nextInt();
                     System.out.println("Nhập chiều rộng :");
@@ -89,8 +89,8 @@ public class ShapeManager {
                     System.out.println("Nhập tọa độ y của tâm :");
                     int y2 = scanner.nextInt();
                     System.out.println("Nhập màu sắc :");
-                    scanner.next();
-                    String color2 = scanner.nextLine();
+
+                    String color2 = scanner.next() +scanner.nextLine();
                     System.out.println("Nhập cạnh a :");
                     int a = scanner.nextInt();
                     System.out.println("Nhập cạnh b :");
